@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+  <!--
+
+Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.2.11 
+Visite <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2019.05.09 a las 04:39:48 PM COT 
+
+  -->
+  <bindings xmlns:tns="http://tempuri.org/" if-exists="true" scd="x-schema::tns">
+    <schemaBindings map="false">
+      <package name="co.pruebatecnica.masivian.calculator.client.schemas.calculator"/>
+    </schemaBindings>
+    <bindings if-exists="true" scd="tns:Add">
+      <class ref="co.pruebatecnica.masivian.calculator.client.schemas.calculator.Add"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:AddResponse">
+      <class ref="co.pruebatecnica.masivian.calculator.client.schemas.calculator.AddResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:Subtract">
+      <class ref="co.pruebatecnica.masivian.calculator.client.schemas.calculator.Subtract"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:SubtractResponse">
+      <class ref="co.pruebatecnica.masivian.calculator.client.schemas.calculator.SubtractResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:Multiply">
+      <class ref="co.pruebatecnica.masivian.calculator.client.schemas.calculator.Multiply"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:MultiplyResponse">
+      <class ref="co.pruebatecnica.masivian.calculator.client.schemas.calculator.MultiplyResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:Divide">
+      <class ref="co.pruebatecnica.masivian.calculator.client.schemas.calculator.Divide"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:DivideResponse">
+      <class ref="co.pruebatecnica.masivian.calculator.client.schemas.calculator.DivideResponse"/>
+    </bindings>
+  </bindings>
+</bindings>
